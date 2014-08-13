@@ -1,0 +1,25 @@
+{
+  "name": "pathfinder-combat-manager",
+  "version": "0.0.0",
+  "description": "Web Based Locally Served Combat Manager for the Pathfinder Roleplaying Game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JustinBeaudry",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^5.9.3",
+    "gulp": "^3.8.7",
+    "gulp-rimraf": "^0.1.0",
+    "rind-modules-gulp": "0.0.7",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "dependencies": {
+    "confidence": "^0.12.1",
+    "hapi": "^6.4.0",
+    "lodash": "^2.4.1",
+    "sqlite3": "^2.2.7",
+    "winston": "^0.7.3"
+  }
+}

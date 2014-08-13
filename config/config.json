@@ -1,0 +1,20 @@
+{
+  "host": "localhost",
+  "port": 85,
+  "modules": [
+    "combat"
+  ],
+  "db": {
+    "name": "pathfinder-combat-manager"
+  },
+  "anatomy": {
+    "styles": {},
+    "templates": {},
+    "client": {},
+    "assets": {"sub": true}
+  },
+  "clean": [
+    "public",
+    "docs"
+  ]
+}
